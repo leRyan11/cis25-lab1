@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    
+    int points;
+    string name;
+    
+    
+    points = 10;
+    name = "Ryan";
+    
+    
+    cout << "Hello, " << name << "! The computer has seen fit to assign you " 
+              << points << " points." << endl;
+    
+    return 0;
+}
